@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(181, 185, 187);
+}
+
+.clock-body-outer {
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 100%;
+  box-shadow: 0px 0px 50px #8e8e90aa, 50px 50px 100px 2px #00000067,0px 0px 20px #0000009e inset;
+}
+
+.clock-body-inner {
+  width: 650px;
+  height: 650px;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 100%;
+  box-shadow: 0px 0px 50px #8e8e90 inset, 30px 30px 100px 2px #00000076 inset
+}
+
+.middle-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px black, 0px 0px 8px rgb(82, 83, 88) inset;
+  background-color: whitesmoke;
+}
+
+.sec-hand {
+  width: 280px;
+  height: 8px;
+  background-color: red;
+  transform-origin: 280px 50%;
+}
+
+.sec-hand-tail {
+  width: 80px;
+  height: 8px;
+  background-color: red;
+  transform-origin: 80px 50%;
+}
+
+.min-hand {
+  width: 260px;
+  height: 10px;
+  background-color: rgb(35, 36, 37);
+  transform-origin: 260px 50%;
+}
+
+.hour-hand {
+  width: 220px;
+  height: 20px;
+  background-color: rgb(35, 36, 37);
+  transform-origin: 220px 50%;
+}
+
+.hands {
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto 50% auto auto;
+}
+
+.needles {
+  width: 50px;
+  height: 4px;
+  background-color: #595e6c;
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto auto 10px;
+
+  transform-origin: 315px 0;
+}
+
+.brand {
+  text-align: center;
+  margin-top: 120px;
+  color: #595e6c;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Philosopher", sans-serif;
+}
