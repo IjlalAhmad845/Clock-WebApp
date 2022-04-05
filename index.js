@@ -29,12 +29,11 @@ setInterval(() => {
   let hour = date.getHours();
 
   hour = hour % 12;
-  sec.style.transform = `rotate(${90 + seconds * 6}deg)`;
-
   setSecondsShadow(seconds);
   setMinutesShadow(minutes);
-  setHoursShadow(hour);
+  setHoursShadow(hour * 5 + 1);
 
+  sec.style.transform = `rotate(${90 + seconds * 6}deg)`;
   secTail.style.transform = `rotate(${90 + 180 + seconds * 6}deg)`;
   min.style.transform = `rotate(${90 + minutes * 6 + seconds / 10}deg)`;
   hr.style.transform = `rotate(${90 + hour * 30 + minutes / 2}deg)`;
