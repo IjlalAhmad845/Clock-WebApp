@@ -1,2 +1,2 @@
 # Clock-WebApp
-A Simple Wall Clock by Vanilla HTML, CSS and JS
+click [Here](https://ijlalahmad845.github.io/Clock-WebApp) to see
